@@ -19,7 +19,6 @@ setup (
     version='0.0.1',
     author='arifa',
     author_email='arifasrity7@gmail.com',
-    packages=find_packages(where="src"),
-    package_dir={"":"src"},
+    packages=find_packages(),
     install_requires=get_requirements('requirement.txt')
 )
